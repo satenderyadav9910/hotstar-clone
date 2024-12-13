@@ -50,10 +50,6 @@ function Movies(props) {
       code: "kn",
     },
     {
-      name: "Korean",
-      code: "ko",
-    },
-    {
       name: "Japanese",
       code: "ja",
     },
