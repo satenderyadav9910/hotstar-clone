@@ -196,7 +196,7 @@ const Navbar = () => {
               >
                 <Image
                   boxSize="1.4rem"
-                  src="https://lh3.ggpht.com/MPndj4KtVlLgFC1IC2BE6e2Gbx_ylMCnWnbIUduAMhmQ3KZowrQtHq_BgaPGsH6onwrP=w1200-h630-p-k-no-nu"
+                  src="https://wallpapers.com/images/hd/retro-t-v-icon-ko3sanbjfznfbiao.png"
                   alt="Channel"
                   mr="20px"
                 />
@@ -211,9 +211,10 @@ const Navbar = () => {
                 >
                   <Image
                     boxSize="1.4rem"
-                    src="https://ec.europa.eu/eurostat/cros/profiles/multisite_drupal_standard/modules/features/nexteuropa_multilingual/theme/language-icon.png"
+                    src="https://img.icons8.com/fluent-systems-regular/512w/FFFFFF/language.png"
                     alt="Lang."
                     mr="20px"
+    
                   />
                   <span>Language</span>
                 </Flex>
@@ -258,7 +259,7 @@ const Navbar = () => {
           >
             <Image
               boxSize="1.4rem"
-              src="https://lh3.ggpht.com/MPndj4KtVlLgFC1IC2BE6e2Gbx_ylMCnWnbIUduAMhmQ3KZowrQtHq_BgaPGsH6onwrP=w1200-h630-p-k-no-nu"
+              src="https://wallpapers.com/images/hd/retro-t-v-icon-ko3sanbjfznfbiao.png"
               alt="Channel"
               mr="12px"
             />
@@ -272,7 +273,7 @@ const Navbar = () => {
           >
             <Image
               boxSize="1.4rem"
-              src="https://ec.europa.eu/eurostat/cros/profiles/multisite_drupal_standard/modules/features/nexteuropa_multilingual/theme/language-icon.png"
+              src="https://img.icons8.com/fluent-systems-regular/512w/FFFFFF/language.png"
               alt="Lang."
               mr="12px"
             />
@@ -344,8 +345,9 @@ const Navbar = () => {
       <IconButton
         bg={{}}
         display={{ base: "none", sm: "none", md: "block" }}
+        _hover={{bg: 'none'}}
         icon={
-          <Image src="https://www.hotstar.com/assets/4aa70ede8904e16b7630300c09219c8e.svg" />
+          <Image h={"28px"} src={'/kids.png'} alt="kids" />
         }
       />
       <Spacer />
@@ -444,12 +446,13 @@ const Navbar = () => {
               as={IconButton}
               backgroundColor="transparent"
               bg={"transparent"}
-              _hover={{}}
+              _hover={{bg:'none'}}
               _active={{}}
               icon={
                 <Image
+                  h={'40px'}
                   backgroundColor={"transparent"}
-                  src="https://www.hotstar.com/assets/c724e71754181298e3f835e46ade0517.svg"
+                  src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png"
                 />
               }
             />

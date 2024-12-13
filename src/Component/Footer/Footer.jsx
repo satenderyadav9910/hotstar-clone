@@ -63,12 +63,14 @@ function Footer(props) {
               height={"40px"}
               width={"40px"}
               marginRight="5px"
+              title="facebook"
             />
             <Image
-              src="https://wie.ieee.org/wp-content/uploads/2019/06/twitter-logo-transparent-15.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b7/X_logo.jpg"
               alt="twitter"
               height={"40px"}
               width={"50px"}
+              title="twitter"
             />
           </Flex>
         </Box>

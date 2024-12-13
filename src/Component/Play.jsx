@@ -59,14 +59,13 @@ export default function Play() {
           </Text>
         </>
       ) : (
-        <div style={{ width: "100%", height: "560px" }}>
-          <iframe
+        <div style={{ width: "100%", height: "560px", maxWidth: "100%" }}>
+          <img
             title="not found"
             allow="fullscreen"
-            frameBorder="0"
-            height="100%"
-            src="https://giphy.com/embed/1hGu7ketlpuuWjwvMA/video"
-            width="100%"></iframe>
+            style={{ height:'100%' }}
+            src="https://miro.medium.com/v2/resize:fit:1400/0*VMeYq1x7s1ObI0Sq.gif"
+            width="100%"></img>
         </div>
       )}
       <div style={{ width: "97%", margin: "0 auto" }}>
